@@ -1,0 +1,265 @@
+.navigation-header {
+    background-color:#262336 ;
+    color:#817E92;
+}
+
+.nav-header{
+    display: flex;
+}
+
+.nav-logo {
+    flex: 1;
+}
+
+
+.nav-buttons {
+    color:#685972 ;
+    flex: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-buttons ul {
+    list-style: none;
+    text-align: end;
+    padding-bottom: 50px;
+    padding-right: 25px;
+}
+
+.nav-buttons li {
+    display: inline;
+}
+
+.customer-support {
+    background-color:#262336 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 100px;
+}
+
+.customer-support h2 {
+background: #D1D0D6;
+background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0D6 0%, #817E92 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.customer-support h1 {
+    color: white;
+}
+
+.customer-support p {
+    margin-left:50 px;
+    margin-right: 50px;
+    color: #817E92;
+}
+
+.customer-support button {
+    background-color: #817E92;
+    color: white;
+}
+
+.cmfd {
+    background-color: #f29b66;
+    flex: inline;
+}
+
+.cmfd {
+    column-count: 4;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cmfd h2{
+    color: white;
+}
+
+.cmfd h3 {
+background-color: #685972;
+  background: -webkit-linear-gradient(#d5d4d4, #8d8787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cmfd p{
+    color:black;
+}
+
+.pricing {
+    display: flex;
+    text-align: center;
+    background-color: #e8e8ea
+}
+
+.pricing button {
+    background-color: #e96c3c;
+    color: white;
+    border-radius: 5px;
+    margin: 2x;
+}
+
+.priceback{
+    background-color:#685972;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pricing .minhost{
+    flex: 1;
+    margin: 10px;
+
+    width: 175px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-top-width: ‒5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.pricing .minhost span{
+    background-color: #685972;
+    font-size:15 px;
+    background: -webkit-linear-gradient( #f07f2a, #8d2501);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing .minhost .h6gray {
+    background: #817E92;
+    padding: 2px;
+}
+
+.pricing .minhost .h6white {
+    background: white;
+    padding: 2px;
+}
+
+.pricing .userhost{
+    flex: 1;
+    margin: 10px;
+}
+
+.pricing .userhost span {
+    background-color: #685972;
+    font-size:15 px;
+    background: -webkit-linear-gradient( #f07f2a, #8d2501);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing .userhost .h6gray {
+    background: #817E92;
+    padding: 2px;
+}
+
+.pricing .userhost .h6white {
+    background: white;
+    padding: 2px;
+}
+
+.pricing .prohost{
+    flex: 1;
+    margin: 10px;
+}
+.pricing .prohost span {
+    background-color: #685972;
+    font-size:15 px;
+    background: -webkit-linear-gradient( #f07f2a, #8d2501);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.pricing .prohost .h6gray {
+    background: #817E92;
+    padding: 2px;
+}
+
+.pricing .prohost .h6white {
+    background:white;
+    padding: 2px;
+}
+.pricing .maxhost{
+    flex: 1;
+    margin: 10px;
+}
+
+.pricing .maxhost span {
+    background-color: #685972;
+    font-size:15 px;
+    background: -webkit-linear-gradient( #f07f2a, #8d2501);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing .maxhost .h6gray {
+    background: #817E92;
+    padding: 2px;
+}
+
+.pricing .maxhost .h6white {
+    background: white;
+    padding: 2px;
+}
+
+.pricing h2 {
+background-color: #685972;
+font-size: 30px;
+  background: -webkit-linear-gradient(#d5d4d4, #8d8787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing h3 {
+    background: #685972;
+    color:white
+}
+
+.pricing h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.shop {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    background-color: #262336;
+}
+
+.shop ul {
+   color: white;
+}
+
+.shop h3 {
+    background: #D1D0D6;
+    background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0D6 0%, #817E92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 8px;
+}
+
+
+.shop p {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #817E92;
+}
+
+.shop button {
+    background-color:#e96c3c ;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 8px;
+}
+
+
+.footer img {
+    width: 100%;
+}
+
+@media (max-width:425px){
+    .header-logo{
+        
+    }
+}
+    
