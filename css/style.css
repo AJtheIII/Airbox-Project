@@ -5,10 +5,16 @@
 
 .nav-header{
     display: flex;
+    border-bottom: #817E92 2px solid;
 }
 
 .nav-logo {
     flex: 1;
+}
+
+.nav-logo img{
+    display: flex;
+    align-content: center;
 }
 
 
@@ -27,7 +33,10 @@
 
 .nav-buttons li {
     display: inline;
+    align-content: center;
+    text-align: right;
 }
+
 
 .customer-support {
     background-color:#262336 ;
@@ -47,15 +56,20 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
     color: white;
 }
 
-.customer-support p {
+.customer-support h5 {
     margin-left:50 px;
     margin-right: 50px;
     color: #817E92;
 }
 
+.cs-lorem{
+    text-align: center;
+}
+
 .customer-support button {
-    background-color: #817E92;
+    background-color: #9e97ba;
     color: white;
+    border-radius: 20%;
 }
 
 .cmfd {
@@ -63,6 +77,27 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
     flex: inline;
 }
 
+.cmfd {
+    text-align: center;
+}
+
+.cmfd h2{
+    color: white;
+}
+
+.cmfd h3{
+   background-color: #685972;
+   background: -webkit-linear-gradient(#d5d4d4, #8d8787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cmfd p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight:bold;
+}
+/*
 .cmfd {
     column-count: 4;
     text-align: center;
@@ -74,10 +109,7 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
 }
 
 .cmfd h3 {
-background-color: #685972;
-  background: -webkit-linear-gradient(#d5d4d4, #8d8787);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
 }
 
 .cmfd p{
@@ -89,7 +121,7 @@ background-color: #685972;
     text-align: center;
     background-color: #e8e8ea
 }
-
+/*
 .pricing button {
     background-color: #e96c3c;
     color: white;

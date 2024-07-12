@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">.
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <title>Airbox</title>
 </head>
 <body>
-    <div class="container navigation-header">
+    <div class="container col-12 navigation-header">
       <div class="row nav-header">
         <div class="col-12 col-md-6 nav-logo">
-          <img class="img-fluid"src="./med." alt="airbox logo">
+          <img class="img-fluid"src="./media/Airbox logo.png" alt="airbox logo">
         </div> 
         <div class=" col-12 col-md-6 nav-buttons">
             <ul>
@@ -24,27 +24,45 @@
             </ul>   
         </div>
       </div>
-    </div>
+    </div><!--END OF navigation-header-->
     <div class="container customer-support">
-        <h2>24/7 Real Person</h2>
-        <h1>Customer Support</h1>
-        <h2> For all our clients</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa perspiciatis hic, fuga dignissimos maiores expedita nihil? Eos, fugit deserunt. Commodi, corporis perferendis libero tenetur assumenda laborum similique sequi. Expedita, impedit.</p>
-        <button>Try Now</button>
-    </div>
-    <div class="container cmfd">
+        <div class="row">
+          <div class="col-12"><h2>24/7 Real Person</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-12"><h1>Customer Support</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-12"><h2> For all our clients</h2></div>
+        </div> 
+        <div class="row cs-lorem">
+          <div class="col-2"> </div>
+          <div class="col-8"><h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa perspiciatis hic, fuga dignissimos maiores expedita nihil? Eos, fugit deserunt. Commodi, corporis perferendis libero tenetur assumenda laborum similique sequi. Expedita, impedit.</h5></div>
+          <div class="col-2"> </div>
+        </div>  
+        <div class="row">
+          <div class="col-12 cs-button"><button>Try Now</button></div>
+        </div>
+    </div>    
+  <div class="container cmfd">
         <div class="row cmfd">
-            <div class="column cmfd">
-          <column><img src="media/Control.png" alt="Cog icon"><h2>Control</h2><h3>Panel</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p></column>
-          <column><img src="media/Multi.png" alt="domain icon"><h2>Multi-Domain</h2><h3>Hosting</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p></column>
-          <column> <img src="media/FTP.png" alt="Ftp icon"><h2>FTP</h2><h3>Service</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p></column>
-          <column><img src="media/Direct.png" alt="telephone icon"><h2>Direct</h2><h3>Support</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p></column>
+            <div class="col-3 control-column">
+              <img src="media/Control.png" alt="Cog icon"><h2>Control</h2><h3>Panel</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p>
+            </div>  
+            <div class="col-3 multi-column">
+              <img src="media/Multi.png" alt="domain   icon"><h2>Multi-Domain</h2><h3>Hosting</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p>
+            </div>  
+            <div class="col-3 service-column">
+              <img src="media/FTP.png" alt="Ftp icon"><h2>FTP</h2><h3>Service</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p>
+            </div>  
+            <div class="col-3 telephone-column">
+              <img src="media/Direct.png" alt="telephone icon"><h2>Direct</h2><h3>Support</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, facilis.</p>
             </div>
         </div>
     </div>
-    <div class="pricing">
-        <div class="minhost">
-              <div class="priceback">
+    <div class="container pricing">
+        <div class="row minhost">
+              <div class="col-3 priceback">
                 <h2>Mini Hosting</h2>
                 </div>
                 <h3>$10.99<span>/MO</span></h3>
