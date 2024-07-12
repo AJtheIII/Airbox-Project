@@ -15,6 +15,7 @@
 .nav-logo img{
     display: flex;
     align-content: center;
+    width:450px;
 }
 
 
@@ -32,9 +33,13 @@
 }
 
 .nav-buttons li {
-    display: inline;
+    display: inline-flex;
     align-content: center;
     text-align: right;
+}
+
+.nav-buttons h4{
+    flex: 1;
 }
 
 
@@ -238,7 +243,7 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
 }
 
 .footer-container{
-    background-color: #262336;
+    background-color: #322f40;
     margin-top: 16px;
     margin-left: 60px;
     width: auto
@@ -258,8 +263,13 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
     flex: 1;
 }
 
-.container {
-    align-items: start;
+
+@media (min-width:768px){
+    .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    align-content: center;
+}
 }
 /*
 .cmfd {
