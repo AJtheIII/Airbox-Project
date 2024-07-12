@@ -243,23 +243,22 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
 }
 
 .footer-container{
-    background-color: #322f40;
-    margin-top: 16px;
-    margin-left: 60px;
-    width: auto
+    background-color: #6f6c89;
 }
 
-.footer-container img{
-    width:200px;
+.footer-container ul{
     display: inline-flex;
     justify-content: center;
+    list-style: none;
 }
 
-.footer-column{
-    display: inline-flex;
-    justify-content: center;
+.footer-container li{
+    width: 200px;
+    padding: 10px;
+    flex: auto;
 }
-.footer-column div{
+
+.footer-column li{
     flex: 1;
 }
 
