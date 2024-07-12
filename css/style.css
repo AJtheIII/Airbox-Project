@@ -100,6 +100,12 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
 
 .pricing-container{
     background-color:#e8e8ea ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pricing-row{
+    justify-content: center;
 }
 
 .pricing-container h2{
@@ -163,6 +169,78 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
 .pricing-container .h6white {
     background-color: white;
 }
+
+.pricing-container h6 {
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.pricing-container button{
+    background-color: #e96c3c;
+    color: white;
+    border-radius: 5px;
+    margin: 2x;
+}
+
+.min-sign button{
+    align-items: center;
+}
+
+.pricing-container h3{
+    color: #dfdddd;
+}
+
+.pricing-container span{
+    background-color: #685972;
+    font-size:15 px;
+    background: -webkit-linear-gradient( #f07f2a, #8d2501);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shop-container{
+    background-color: #262336;
+    padding-top: 20px;
+}
+
+.hosting-column li{
+    list-style-image: "C:\Users\MCA-10\Documents\GitHub\Airbox-Project\media\yellbull.png";
+}
+
+.shop-container h3{
+    background: #D1D0D6;
+    background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0D6 0%, #817E92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 8px;
+}
+
+.shop-container li{
+    color:#b3b3b3
+}
+
+.shop-container p {
+    color: #685972;
+}
+
+.shop-container ul{
+    li::before {content: "•"; color: yellow;
+        display: inline-block; width: 1em;
+        margin-left: -1em}
+
+}
+
+.shop-container button{
+    background-color:#e96c3c ;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 15px;
+}
+
+.footer-container{
+    justify-content: center;
+}
+
 /*
 .cmfd {
     column-count: 4;
