@@ -97,6 +97,72 @@ background: repeating-radial-gradient(ellipse farthest-corner at top left, #D1D0
     margin-right: 50px;
     font-weight:bold;
 }
+
+.pricing-container{
+    background-color:#e8e8ea ;
+}
+
+.pricing-container h2{
+    background-color: #685972;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#d5d4d4, #8d8787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.minhost-column{
+    padding-left:10px;
+}
+
+.min-host {
+    background-color:#6f6c89 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.user-host {
+    background-color:#6f6c89 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.pro-host {
+    background-color:#6f6c89 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.max-host {
+    background-color:#6f6c89 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.min-price {
+    background-color:#6f6c89 ;
+    text-align: center;
+}
+.user-price {
+    background-color:#6f6c89 ;
+    text-align: center;
+}
+.pro-price {
+    background-color:#6f6c89 ;
+    text-align: center;
+}
+.max-price {
+    background-color:#6f6c89 ;
+    text-align: center;
+}
+
+.pricing-container .h6gray{
+    background-color:#f5f0f0;
+}
+
+.pricing-container .h6white {
+    background-color: white;
+}
 /*
 .cmfd {
     column-count: 4;
